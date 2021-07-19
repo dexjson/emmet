@@ -1,0 +1,8 @@
+{
+  "html": {
+    "snippets": {
+      "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}})+body",
+      "module": "<script type=\"module\" src=\"${1}\"></script>"
+    }
+  }
+}
