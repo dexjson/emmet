@@ -24,7 +24,7 @@ const combined = {
     }
 }
 
-fs.writeFile('./vscode-snippets/emmet/default/settings.json', JSON.stringify(combined, null, 2), err => {
+fs.writeFile('./vscode-snippets/emmet/default/snippets.json', JSON.stringify(combined, null, 2), err => {
     if (err) throw err
-    console.log('combined json files as "settings.json"')
+    console.log('combined json files as "snippets.json"')
 })
